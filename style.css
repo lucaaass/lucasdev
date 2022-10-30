@@ -239,6 +239,7 @@ nav {
       color: white;
       font-size: 30pt;
       text-align: center;
+     
   }
   
 
@@ -267,18 +268,18 @@ nav {
 .apresentacao {
   width: 100%;
 
-
 }
+
 .apresentacao .sobre h2 {
   display: flex;
   width: 100%;
+  text-align: center;
   justify-content: center;
-  align-items: center;
   color: #fff;
   font-size: 35pt;
   margin: 50px 0;
-  
 }
+
 .apresentacao .sobre p {
   display: flex;
   text-align: justify;
@@ -293,13 +294,13 @@ nav {
 @media (max-width: 767px) {
   .apresentacao {
     width: 100vw;
-    margin: 10px 20px;
+    
   }
   .apresentacao .sobre p { 
     text-align: justify;
     margin: 0;
-    padding: 0;
-    width: 90%;
+    padding: 0  15px;
+    width: 100%;
     
     hyphens: auto;
   }
